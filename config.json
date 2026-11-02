@@ -1,1 +1,1 @@
-{"protocol":1,"api":"https://packages.sayon-lang.org","download":"https://packages.sayon-lang.org/api/v1/packages/{name}/{version}/archive"}
+{"protocol":1,"api":"https://www.sayon-lang.org","download":"https://www.sayon-lang.org/api/v1/packages/{name}/{version}/archive"}

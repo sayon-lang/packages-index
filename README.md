@@ -1,8 +1,8 @@
 # Sayon's package index
 
-Every version published to [Sayon's package registry](https://github.com/sayon-lang/packages.sayon-lang.org): what `sayon install` reads to choose versions and check what it downloads. The registry writes it as `sayon publish` adds versions, one commit for each; nobody edits it by hand.
+Every version published to Sayon's package registry, part of [Sayon's website](https://github.com/sayon-lang/www.sayon-lang.org): what `sayon install` reads to choose versions and check what it downloads. The registry writes it as `sayon publish` adds versions, one commit for each; nobody edits it by hand.
 
-The registry is not operated yet, so the index has no packages, and `config.json` names the addresses it will have. Until then `sayon` uses a registry on your own computer, with an index of its own.
+The website is not operated yet, so the index has no packages, and `config.json` names the addresses it will have. Until then `sayon` uses a registry on your own computer, with an index of its own.
 
 ## What it holds
 
@@ -14,7 +14,7 @@ The registry is not operated yet, so the index has no packages, and `config.json
 {"name":"words","version":"1.0.0","digest":"sha256:<64 hex digits>","description":"Words, louder","dependencies":[{"alias":"strings","package":"strings","requirement":"0.2","registry":null}],"published":"2026-10-28T09:30:00Z"}
 ```
 
-`digest` is the SHA-256 of the version's archive, which `sayon` checks each download against, and which `sayon.lock` records. A dependency's `registry` is `null` when it comes from this registry. [PROTOCOL.md](https://github.com/sayon-lang/packages.sayon-lang.org/blob/main/PROTOCOL.md) of the registry describes it all.
+`digest` is the SHA-256 of the version's archive, which `sayon` checks each download against, and which `sayon.lock` records. A dependency's `registry` is `null` when it comes from this registry. [PROTOCOL.md](https://github.com/sayon-lang/www.sayon-lang.org/blob/main/PROTOCOL.md) of the website describes it all.
 
 ## Reading it
 
